@@ -1,0 +1,458 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Top Banner */
+.top-banner {
+    background-color: #9b5de5;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 24px;
+    margin-right: 5px;
+}
+
+.logo-text {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* Tag */
+.tag {
+    display: inline-flex;
+    align-items: center;
+    background-color: #f0f0ff;
+    color: #6c63ff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin: 10px 15px;
+}
+
+.tag-icon {
+    margin-left: 5px;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 0 15px;
+}
+
+.hero-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Email Form */
+.email-form {
+    display: flex;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.email-form input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.email-form input:focus {
+    outline: none;
+}
+
+.start-button {
+    background-color: #9b5de5;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login-text {
+    font-size: 12px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.login-text a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+/* Advantages Section */
+.advantages-section {
+    background: linear-gradient(to bottom, #1b1b2f, #162447);
+    padding: 30px 15px;
+    text-align: left;
+}
+
+.advantages-title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.advantages-subtitle {
+    color: #ccc;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.get-started-btn {
+    display: block;
+    margin: 0 auto 25px auto;
+    background-color: white;
+    color: #6c63ff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.advantages-card {
+    background-color: #a855f7;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.card-icon {
+    background-color: white;
+    color: #a855f7;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.card-text {
+    color: white;
+    font-size: 13px;
+    line-height: 1.4;
+}
+/* Data Analysis Section */
+.data-analysis-section {
+    background-color: #f9f9fb;
+    padding: 20px 15px;
+}
+
+.data-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.data-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.data-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.data-description {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.data-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.action-btn {
+    background-color: #a855f7;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* POS System Section */
+.pos-system-section {
+    background-color: #f9f9fb;
+    padding: 20px 15px;
+}
+
+.pos-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.pos-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.pos-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.pos-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 15px;
+}
+/* Testimonials Section */
+.testimonials-section {
+    background: linear-gradient(to bottom, #f7f6fb, #ffffff);
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.testimonials-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 8px;
+}
+
+.testimonials-subtitle {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.testimonial-card {
+    max-width: 300px;
+    margin: 0 auto 20px auto;
+}
+
+.testimonial-photo {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.testimonial-rating {
+    font-size: 14px;
+    color: #ffb400;
+    margin-bottom: 10px;
+}
+
+.rating-score {
+    color: #000;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.testimonial-text {
+    font-size: 14px;
+    color: #333;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    font-size: 14px;
+    color: #222;
+}
+
+.testimonial-role {
+    font-size: 12px;
+    font-style: italic;
+    color: #888;
+}
+
+.testimonial-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.nav-next-btn {
+    background-color: #a855f7;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 8px;
+    cursor: pointer;
+}
+/* Pricing Section */
+.pricing-section {
+    background-color: #f9f9fb;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.pricing-label {
+    font-size: 12px;
+    color: #777;
+}
+
+.pricing-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 8px;
+}
+
+.pricing-subtitle {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.pricing-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-outline {
+    background-color: white;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 8px 15px;
+    border-radius: 25px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #a855f7;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 25px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.full-width {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.pricing-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.plan-label {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.plan-price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.plan-description {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.plan-features {
+    text-align: left;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #555;
+    list-style-type: none;
+    padding: 0;
+}
+
+.plan-features li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.plan-features li::before {
+    content: "✔";
+    color: #a855f7;
+    position: absolute;
+    left: 0;
+}
