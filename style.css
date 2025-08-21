@@ -580,3 +580,39 @@ footer {
 .btn-dark:hover {
   background: #333;
 }
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #7b3ff3;
+    border-radius: 12px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.stat-box {
+    flex: 1;
+    text-align: center;
+}
+
+.stat-title {
+    font-size: 10px;
+    opacity: 0.9;
+}
+
+.stat-value {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.stat-change {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.stat-change.positive {
+    color: #4ade80; /* Verde */
+}
