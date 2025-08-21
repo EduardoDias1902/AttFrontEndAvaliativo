@@ -38,7 +38,10 @@ Escolha uma das opções abaixo (da mais simples para a mais completa).
 ## 🔹 Opção C — Clonar com Git + abrir no VS Code
 1. **Clonar** o repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/NOME-DO-REPO.git
-   cd NOME-DO-REPO
+   git clone https://github.com/EduardoDias1902/AttFrontEndAvaliativo
+.git
+   cd AttFrontEndAvaliativo
+
+
 
 
